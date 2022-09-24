@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.logo {
+    width: 8vw;
+    margin-left: 45vw;
+    margin-top: 5vw;
+}
+
+.container {
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 2.2vw;
+}
+
+h1 {
+    color: hsl(0, 0%, 59%);
+    font-weight: 200;
+}
+
+input {
+    font-size: 1.5vw;
+    color: hsl(0, 0%, 59%);
+    width: 30vw;
+    height: 5vw;
+    margin-top: 2.5vw;
+    border-radius: 3vw;
+    border: solid 1px hsl(0, 0%, 59%);
+    padding-left: 2.5vw;
+}
+
+button {
+    font-size: 1.5vw;
+    width: 15vw;
+    height: 5vw;
+    border-radius: 3vw;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+
+.illu {
+    width: 55vw;
+    margin-top: 7vw;
+    margin-left: 22vw;
+
+}
+.copy-right {
+    margin-top: 10vw;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+
+@media only screen and (max-width: 950px) {
+    .container {
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    .logo {
+        width: 15vw;
+        margin-left: 40vw;
+    }
+
+    input {
+        width: 70vw;
+        height: 8vw;
+        border-radius: 4vw;
+        font-size: 3vw;
+    }
+
+    button {
+        margin-top: 5vw;
+        width: 70vw;
+        height: 8vw;
+        border-radius: 4vw;
+        font-size: 3vw;
+    }
+
+    .illu {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+}
